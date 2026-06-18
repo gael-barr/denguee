@@ -1,0 +1,100 @@
+<svg viewBox="0 0 900 1400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Infografía completa sobre el dengue: qué es, síntomas, signos de alarma, prevención y cifras clave">
+  <rect width="900" height="1400" fill="#FAF6EC"/>
+
+  <!-- HEADER -->
+  <rect width="900" height="190" fill="#0B3D3A"/>
+  <text x="450" y="78" text-anchor="middle" font-family="Fraunces, serif" font-size="42" font-weight="700" fill="#F2E8D5">DENGUE</text>
+  <text x="450" y="115" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#E8483C" font-weight="700" letter-spacing="0.08em">LO QUE TODOS DEBEMOS SABER</text>
+  <g transform="translate(450,158)">
+    <circle cx="0" cy="-14" r="11" fill="#F2E8D5"/>
+    <circle cx="-4" cy="-16" r="2.5" fill="#E8483C"/>
+    <circle cx="4" cy="-16" r="2.5" fill="#E8483C"/>
+    <ellipse cx="0" cy="10" rx="13" ry="20" fill="#F2E8D5"/>
+    <path d="M-13 0 L-45 -15 M-13 5 L-48 8 M13 0 L45 -15 M13 5 L48 8 M-10 22 L-30 50 M10 22 L30 50" stroke="#F2E8D5" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- SECCIÓN: QUÉ ES -->
+  <text x="60" y="250" font-family="Fraunces, serif" font-size="26" font-weight="700" fill="#0B3D3A">¿Qué es?</text>
+  <line x1="60" y1="262" x2="120" y2="262" stroke="#E8483C" stroke-width="3"/>
+  <text x="60" y="295" font-family="Inter, sans-serif" font-size="15" fill="#333">Enfermedad viral transmitida por la picadura de la hembra</text>
+  <text x="60" y="318" font-family="Inter, sans-serif" font-size="15" fill="#333">del mosquito Aedes aegypti. Existen 4 serotipos del virus,</text>
+  <text x="60" y="341" font-family="Inter, sans-serif" font-size="15" fill="#333">por lo que una persona puede enfermar más de una vez.</text>
+
+  <!-- SECCIÓN: SÍNTOMAS -->
+  <text x="60" y="410" font-family="Fraunces, serif" font-size="26" font-weight="700" fill="#0B3D3A">Síntomas principales</text>
+  <line x1="60" y1="422" x2="120" y2="422" stroke="#E8483C" stroke-width="3"/>
+
+  <g font-family="Inter, sans-serif" font-size="15" fill="#333">
+    <circle cx="70" cy="458" r="5" fill="#2D7A6E"/><text x="88" y="463">Fiebre alta repentina (39–40°C)</text>
+    <circle cx="70" cy="488" r="5" fill="#2D7A6E"/><text x="88" y="493">Dolor de cabeza intenso</text>
+    <circle cx="70" cy="518" r="5" fill="#2D7A6E"/><text x="88" y="523">Dolor muscular y articular severo</text>
+    <circle cx="470" cy="458" r="5" fill="#2D7A6E"/><text x="488" y="463">Dolor detrás de los ojos</text>
+    <circle cx="470" cy="488" r="5" fill="#2D7A6E"/><text x="488" y="493">Manchas en la piel (rash)</text>
+    <circle cx="470" cy="518" r="5" fill="#2D7A6E"/><text x="488" y="523">Náusea y vómito leve</text>
+  </g>
+
+  <!-- SECCIÓN: SIGNOS DE ALARMA -->
+  <rect x="40" y="580" width="820" height="270" rx="20" fill="#FFFFFF" stroke="#E8483C" stroke-width="2"/>
+  <text x="60" y="625" font-family="Fraunces, serif" font-size="24" font-weight="700" fill="#C73327">⚠ Signos de alarma: acude de inmediato</text>
+  <g font-family="Inter, sans-serif" font-size="14.5" fill="#444">
+    <circle cx="70" cy="660" r="5" fill="#E8483C"/><text x="88" y="665">Dolor abdominal intenso y continuo</text>
+    <circle cx="70" cy="690" r="5" fill="#E8483C"/><text x="88" y="695">Vómito persistente (3+ veces por hora)</text>
+    <circle cx="70" cy="720" r="5" fill="#E8483C"/><text x="88" y="725">Sangrado de nariz, encías o en orina</text>
+    <circle cx="70" cy="750" r="5" fill="#E8483C"/><text x="88" y="755">Decaimiento extremo o irritabilidad</text>
+    <circle cx="470" cy="660" r="5" fill="#E8483C"/><text x="488" y="665">Piel pálida, fría y húmeda</text>
+    <circle cx="470" cy="690" r="5" fill="#E8483C"/><text x="488" y="695">Dificultad para respirar</text>
+    <circle cx="470" cy="720" r="5" fill="#E8483C"/><text x="488" y="725">Aumento del tamaño del hígado</text>
+  </g>
+  <text x="60" y="810" font-family="Inter, sans-serif" font-size="13" fill="#777" font-style="italic">Suelen aparecer 24–48 horas después de que la fiebre baja. Fuente: OPS/OMS, CDC.</text>
+
+  <!-- SECCIÓN: PREVENCIÓN -->
+  <text x="60" y="900" font-family="Fraunces, serif" font-size="26" font-weight="700" fill="#0B3D3A">Prevención: 4 acciones en casa</text>
+  <line x1="60" y1="912" x2="120" y2="912" stroke="#E8483C" stroke-width="3"/>
+
+  <g transform="translate(110,985)">
+    <rect x="-35" y="-10" width="70" height="55" rx="6" fill="#2D7A6E" opacity="0.12"/>
+    <path d="M-30 0 L30 0 L24 45 L-24 45 Z" fill="none" stroke="#0B3D3A" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M-30 0 Q0 -16 30 0" fill="none" stroke="#0B3D3A" stroke-width="4"/>
+    <text x="0" y="80" text-anchor="middle" font-family="Inter, sans-serif" font-size="15" font-weight="800" fill="#0B3D3A">LAVAR</text>
+  </g>
+  <g transform="translate(330,985)">
+    <ellipse cx="0" cy="35" rx="32" ry="10" fill="none" stroke="#0B3D3A" stroke-width="4"/>
+    <path d="M-32 35 L-32 0 Q-32 -10 0 -10 Q32 -10 32 0 L32 35" fill="none" stroke="#0B3D3A" stroke-width="4"/>
+    <ellipse cx="0" cy="-10" rx="32" ry="9" fill="#E8483C" opacity="0.85"/>
+    <text x="0" y="80" text-anchor="middle" font-family="Inter, sans-serif" font-size="15" font-weight="800" fill="#0B3D3A">TAPAR</text>
+  </g>
+  <g transform="translate(550,985)">
+    <g transform="rotate(180)"><path d="M-22 -25 L22 -25 L16 20 L-16 20 Z" fill="none" stroke="#0B3D3A" stroke-width="4" stroke-linejoin="round"/></g>
+    <path d="M-15 -5 A 20 20 0 1 1 18 -12" fill="none" stroke="#E8483C" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M14 -20 L18 -12 L26 -15" fill="none" stroke="#E8483C" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="0" y="80" text-anchor="middle" font-family="Inter, sans-serif" font-size="15" font-weight="800" fill="#0B3D3A">VOLTEAR</text>
+  </g>
+  <g transform="translate(770,985)">
+    <path d="M-22 -10 L22 -10 L18 35 Q18 40 0 40 Q-18 40 -18 35 Z" fill="none" stroke="#0B3D3A" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M-26 -10 L26 -10" stroke="#0B3D3A" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-8 -10 L-6 -18 Q-6 -22 0 -22 Q6 -22 6 -18 L8 -10" fill="none" stroke="#0B3D3A" stroke-width="4"/>
+    <text x="0" y="80" text-anchor="middle" font-family="Inter, sans-serif" font-size="15" font-weight="800" fill="#0B3D3A">TIRAR</text>
+  </g>
+
+  <!-- SECCIÓN: CIFRAS -->
+  <rect x="40" y="1110" width="820" height="220" rx="20" fill="#0B3D3A"/>
+  <text x="450" y="1150" text-anchor="middle" font-family="Fraunces, serif" font-size="22" font-weight="700" fill="#F2E8D5">El dengue en cifras (México)</text>
+
+  <g font-family="JetBrains Mono, monospace" text-anchor="middle">
+    <text x="150" y="1220" font-size="34" font-weight="700" fill="#E8483C">4</text>
+    <text x="150" y="1248" font-size="11" fill="#F2E8D5">SEROTIPOS</text>
+
+    <text x="370" y="1220" font-size="34" font-weight="700" fill="#E8483C">85%</text>
+    <text x="370" y="1248" font-size="11" fill="#F2E8D5">REDUCCIÓN 2024-25</text>
+
+    <text x="600" y="1220" font-size="34" font-weight="700" fill="#E8483C">&lt;5%</text>
+    <text x="600" y="1248" font-size="11" fill="#F2E8D5">CASOS GRAVES</text>
+
+    <text x="800" y="1220" font-size="30" font-weight="700" fill="#E8483C">24-48h</text>
+    <text x="800" y="1248" font-size="10.5" fill="#F2E8D5">PERIODO CRÍTICO</text>
+  </g>
+  <text x="450" y="1300" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="rgba(242,232,213,0.7)">Fuente: Secretaría de Salud / CENAPRECE, Panorama Epidemiológico de Dengue 2025</text>
+
+  <!-- FOOTER -->
+  <text x="450" y="1370" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#666">Elaborado por Barrera Flores Sergio Gael — Informática Médica</text>
+</svg>

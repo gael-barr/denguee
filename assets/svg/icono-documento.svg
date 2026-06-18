@@ -1,0 +1,10 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Icono de documento normativo">
+  <circle cx="60" cy="60" r="56" fill="#2D7A6E"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M45 32 L68 32 L78 42 L78 88 L45 88 Z"/>
+    <path d="M68 32 L68 42 L78 42"/>
+    <path d="M52 54 L70 54"/>
+    <path d="M52 64 L70 64"/>
+    <path d="M52 74 L64 74"/>
+  </g>
+</svg>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario | Dengue Informa</title>
+<meta name="description" content="Formulario de Google y cuestionario interactivo sobre conocimientos de prevención y signos de alarma del dengue.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/paginas.css">
+</head>
+<body>
+<a href="#contenido" class="skip-link">Saltar al contenido</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Navegación principal">
+    <a href="../index.html" class="brand"><span class="dot" aria-hidden="true"></span> Dengue Informa</a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="publico-general.html">Público general</a></li>
+      <li><a href="personal-salud.html">Personal de salud</a></li>
+      <li><a href="mapa-mental.html">Mapa mental</a></li>
+      <li><a href="multimedia.html">Multimedia</a></li>
+      <li><a href="formulario.html">Formulario</a></li>
+      <li><a href="referencias.html">Referencias</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="contenido">
+
+  <section class="page-hero page-hero--sand">
+    <div class="wrap">
+      <p class="eyebrow">Participa</p>
+      <h1 class="page-title">Formulario y cuestionario</h1>
+      <p class="lead">Responde el formulario oficial del proyecto y pon a prueba lo que aprendiste con el cuestionario interactivo.</p>
+    </div>
+  </section>
+
+  <!-- GOOGLE FORM -->
+  <section class="wrap section">
+    <p class="eyebrow">Formulario de Google</p>
+    <h2 class="section-title" style="font-size:2rem;">Cuestionario del proyecto</h2>
+    <p class="lead" style="margin-bottom:24px;">Por favor responde el siguiente formulario, requisito del proyecto final de Informática Médica.</p>
+
+    <div class="form-card reveal">
+      <!--
+        ============================================================
+        INSTRUCCIÓN PARA SERGIO: reemplaza la URL de abajo por el
+        link de inserción ("embed") de tu Google Form.
+        Cómo obtenerlo:
+        1. Abre tu formulario en Google Forms (modo edición)
+        2. Clic en "Enviar" (arriba a la derecha)
+        3. Elige la pestaña con el ícono < > ("Insertar HTML")
+        4. Copia la URL que está dentro de src="..."
+        5. Pégala aquí reemplazando TU_LINK_DE_GOOGLE_FORMS_AQUI
+        ============================================================
+      -->
+      <iframe src="TU_LINK_DE_GOOGLE_FORMS_AQUI" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+    </div>
+  </section>
+
+  <!-- QUIZ INTERACTIVO -->
+  <section class="wrap section" style="background:var(--sand); border-radius:32px; padding:50px 40px;">
+    <p class="eyebrow">Pon a prueba lo aprendido</p>
+    <h2 class="section-title" style="font-size:2rem;">Cuestionario rápido de conocimientos</h2>
+    <p class="lead" style="margin-bottom:30px;">Un cuestionario interactivo adicional, de retroalimentación inmediata, sobre prevención y signos de alarma del dengue.</p>
+
+    <div class="quiz-wrap reveal" id="quiz">
+      <div class="quiz-q" data-correct="b">
+        <p class="q-text">1. ¿Cuál es el principal mosquito transmisor del dengue?</p>
+        <div class="quiz-options">
+          <label class="quiz-option"><input type="radio" name="q1" value="a"> Culex quinquefasciatus</label>
+          <label class="quiz-option"><input type="radio" name="q1" value="b"> Aedes aegypti</label>
+          <label class="quiz-option"><input type="radio" name="q1" value="c"> Anopheles gambiae</label>
+        </div>
+      </div>
+
+      <div class="quiz-q" data-correct="c">
+        <p class="q-text">2. ¿Cuál de los siguientes NO se debe usar para tratar la fiebre por dengue?</p>
+        <div class="quiz-options">
+          <label class="quiz-option"><input type="radio" name="q2" value="a"> Paracetamol</label>
+          <label class="quiz-option"><input type="radio" name="q2" value="b"> Suero oral</label>
+          <label class="quiz-option"><input type="radio" name="q2" value="c"> Aspirina o ibuprofeno</label>
+        </div>
+      </div>
+
+      <div class="quiz-q" data-correct="a">
+        <p class="q-text">3. ¿Cuál de estos es un signo de alarma del dengue?</p>
+        <div class="quiz-options">
+          <label class="quiz-option"><input type="radio" name="q3" value="a"> Dolor abdominal intenso y continuo</label>
+          <label class="quiz-option"><input type="radio" name="q3" value="b"> Comezón leve en brazos</label>
+          <label class="quiz-option"><input type="radio" name="q3" value="c"> Estornudos frecuentes</label>
+        </div>
+      </div>
+
+      <div class="quiz-q" data-correct="b">
+        <p class="q-text">4. El mosquito Aedes aegypti se reproduce principalmente en:</p>
+        <div class="quiz-options">
+          <label class="quiz-option"><input type="radio" name="q4" value="a"> Agua sucia o con materia orgánica</label>
+          <label class="quiz-option"><input type="radio" name="q4" value="b"> Agua limpia y estancada</label>
+          <label class="quiz-option"><input type="radio" name="q4" value="c"> Tierra húmeda</label>
+        </div>
+      </div>
+
+      <div class="quiz-q" data-correct="c">
+        <p class="q-text">5. Según la NOM-032-SSA2-2014, un caso probable de dengue debe notificarse:</p>
+        <div class="quiz-options">
+          <label class="quiz-option"><input type="radio" name="q5" value="a"> Solo si el paciente fallece</label>
+          <label class="quiz-option"><input type="radio" name="q5" value="b"> Una vez al mes, de forma acumulada</label>
+          <label class="quiz-option"><input type="radio" name="q5" value="c"> De manera inmediata</label>
+        </div>
+      </div>
+
+      <button class="btn btn-primary" id="quiz-submit" type="button">Ver mi resultado</button>
+      <div id="quiz-result"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <h4>Dengue Informa</h4>
+      <p>Sitio web académico sobre dengue elaborado por Barrera Flores Sergio Gael para la UA de Informática Médica, Licenciatura en Médico Cirujano.</p>
+    </div>
+    <div>
+      <h4>Navegación</h4>
+      <ul>
+        <li><a href="publico-general.html">Público general</a></li>
+        <li><a href="personal-salud.html">Personal de salud</a></li>
+        <li><a href="mapa-mental.html">Mapa mental</a></li>
+        <li><a href="multimedia.html">Multimedia</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Recursos</h4>
+      <ul>
+        <li><a href="formulario.html">Formulario</a></li>
+        <li><a href="referencias.html">Referencias y bibliografía</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2026 Barrera Flores Sergio Gael — Proyecto académico, Informática Médica. Contenido con fines educativos, no diagnósticos.
+  </div>
+</footer>
+
+<script src="../assets/main.js"></script>
+<script src="../assets/quiz.js"></script>
+</body>
+</html>

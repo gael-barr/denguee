@@ -1,0 +1,65 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustración del mosquito Aedes aegypti, vector del dengue">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B3D3A"/>
+      <stop offset="100%" stop-color="#072826"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Alas -->
+  <g opacity="0.55">
+    <ellipse cx="155" cy="150" rx="70" ry="26" fill="#F2E8D5" transform="rotate(-25 155 150)"/>
+    <ellipse cx="250" cy="150" rx="70" ry="26" fill="#F2E8D5" transform="rotate(25 250 150)"/>
+  </g>
+
+  <!-- Patas traseras -->
+  <g stroke="#0B3D3A" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M170 230 L110 280 L60 340"/>
+    <path d="M170 230 L100 250 L40 270"/>
+    <path d="M230 230 L290 280 L340 340"/>
+    <path d="M230 230 L300 250 L360 270"/>
+  </g>
+  <!-- Bandas blancas distintivas en patas (rasgo identificador del Aedes aegypti) -->
+  <g stroke="#F2E8D5" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M125 268 L105 280"/>
+    <path d="M85 308 L65 322"/>
+    <path d="M115 257 L95 264"/>
+    <path d="M275 268 L295 280"/>
+    <path d="M315 308 L335 322"/>
+    <path d="M285 257 L305 264"/>
+  </g>
+
+  <!-- Patas delanteras -->
+  <g stroke="#0B3D3A" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M185 215 L150 180 L120 140"/>
+    <path d="M215 215 L250 180 L280 140"/>
+  </g>
+
+  <!-- Cuerpo / tórax -->
+  <ellipse cx="200" cy="215" rx="38" ry="48" fill="url(#bodyGrad)"/>
+  <!-- Abdomen -->
+  <path d="M178 250 Q200 340 222 250 Q222 220 200 215 Q178 220 178 250 Z" fill="url(#bodyGrad)"/>
+  <!-- Patrón blanco en abdomen -->
+  <g fill="#F2E8D5" opacity="0.85">
+    <rect x="188" y="240" width="24" height="5" rx="2"/>
+    <rect x="190" y="255" width="20" height="5" rx="2"/>
+    <rect x="192" y="270" width="16" height="5" rx="2"/>
+    <rect x="194" y="285" width="12" height="5" rx="2"/>
+  </g>
+
+  <!-- Cabeza -->
+  <circle cx="200" cy="170" r="24" fill="url(#bodyGrad)"/>
+  <!-- Ojos -->
+  <circle cx="190" cy="166" r="7" fill="#E8483C"/>
+  <circle cx="210" cy="166" r="7" fill="#E8483C"/>
+  <circle cx="192" cy="164" r="2.2" fill="#F2E8D5"/>
+  <circle cx="212" cy="164" r="2.2" fill="#F2E8D5"/>
+
+  <!-- Probóscide (trompa) -->
+  <path d="M200 188 L196 250" stroke="#0B3D3A" stroke-width="5" stroke-linecap="round"/>
+  <path d="M196 250 L192 268" stroke="#C73327" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Antenas -->
+  <path d="M188 152 Q170 130 150 122" stroke="#0B3D3A" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M212 152 Q230 130 250 122" stroke="#0B3D3A" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

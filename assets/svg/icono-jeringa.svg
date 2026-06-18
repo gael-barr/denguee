@@ -1,0 +1,11 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Icono de jeringa para toma de muestra">
+  <circle cx="60" cy="60" r="56" fill="#E8483C"/>
+  <g stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M40 80 L80 40"/>
+    <path d="M70 30 L90 50"/>
+    <path d="M76 36 L66 46"/>
+    <path d="M66 46 L56 36"/>
+    <rect x="44" y="68" width="14" height="14" rx="2" transform="rotate(-45 51 75)" fill="#FFFFFF" stroke="none"/>
+    <path d="M36 84 L42 90"/>
+  </g>
+</svg>

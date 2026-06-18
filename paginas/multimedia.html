@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multimedia: infografía y video | Dengue Informa</title>
+<meta name="description" content="Infografía descargable y video explicativo sobre el dengue elaborado en Canva.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/paginas.css">
+</head>
+<body>
+<a href="#contenido" class="skip-link">Saltar al contenido</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Navegación principal">
+    <a href="../index.html" class="brand"><span class="dot" aria-hidden="true"></span> Dengue Informa</a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="publico-general.html">Público general</a></li>
+      <li><a href="personal-salud.html">Personal de salud</a></li>
+      <li><a href="mapa-mental.html">Mapa mental</a></li>
+      <li><a href="multimedia.html">Multimedia</a></li>
+      <li><a href="formulario.html">Formulario</a></li>
+      <li><a href="referencias.html">Referencias</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="contenido">
+
+  <section class="page-hero page-hero--teal">
+    <div class="wrap">
+      <p class="eyebrow" style="color:var(--sand);">Recursos visuales</p>
+      <h1 class="page-title">Infografía y video explicativo</h1>
+      <p class="lead" style="color:rgba(242,232,213,.9); max-width:640px;">Material de apoyo visual para reforzar la información del sitio: una infografía descargable y un video explicativo elaborado en Canva.</p>
+    </div>
+  </section>
+
+  <!-- VIDEO -->
+  <section class="wrap section">
+    <p class="eyebrow">Video explicativo</p>
+    <h2 class="section-title" style="font-size:2rem;">Mira el resumen en video</h2>
+
+    <div class="video-frame reveal">
+      <!--
+        ============================================================
+        INSTRUCCIÓN PARA SERGIO: reemplaza VIDEO_ID_AQUI por el ID
+        de tu video de YouTube. Por ejemplo, si tu link es:
+        https://www.youtube.com/watch?v=ABC123xyz
+        entonces tu ID es: ABC123xyz
+        y debes dejar la línea así:
+        <iframe src="https://www.youtube.com/embed/ABC123xyz" ...>
+        ============================================================
+      -->
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID_AQUI"
+        title="Video explicativo sobre el dengue"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <p style="margin-top:14px; font-size:.85rem; color:#777;">Video elaborado en Canva por Barrera Flores Sergio Gael como parte del proyecto final de Informática Médica.</p>
+  </section>
+
+  <!-- INFOGRAFÍA -->
+  <section class="wrap section" style="background:var(--sand); border-radius:32px; padding:50px 40px;">
+    <p class="eyebrow">Infografía</p>
+    <h2 class="section-title" style="font-size:2rem;">El dengue en una sola imagen</h2>
+    <p class="lead" style="margin-bottom:30px;">Resume qué es el dengue, sus síntomas, signos de alarma, prevención y cifras clave en México. Puedes verla aquí o descargarla para compartirla impresa.</p>
+
+    <div class="infografia-frame reveal">
+      <img src="../assets/svg/infografia-dengue.svg" alt="Infografía completa del dengue: qué es, síntomas principales, signos de alarma, prevención con lavar tapar voltear y tirar, y cifras clave en México">
+      <div style="margin-top:18px;">
+        <a href="../assets/svg/infografia-dengue.svg" download class="btn btn-primary">⬇ Descargar infografía (SVG)</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="wrap section" style="text-align:center;">
+    <h2 class="section-title">Sigue explorando</h2>
+    <div class="hero-actions" style="justify-content:center;">
+      <a href="formulario.html" class="btn btn-primary">Ir al formulario →</a>
+      <a href="referencias.html" class="btn btn-ghost">Ver referencias →</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <h4>Dengue Informa</h4>
+      <p>Sitio web académico sobre dengue elaborado por Barrera Flores Sergio Gael para la UA de Informática Médica, Licenciatura en Médico Cirujano.</p>
+    </div>
+    <div>
+      <h4>Navegación</h4>
+      <ul>
+        <li><a href="publico-general.html">Público general</a></li>
+        <li><a href="personal-salud.html">Personal de salud</a></li>
+        <li><a href="mapa-mental.html">Mapa mental</a></li>
+        <li><a href="multimedia.html">Multimedia</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Recursos</h4>
+      <ul>
+        <li><a href="formulario.html">Formulario</a></li>
+        <li><a href="referencias.html">Referencias y bibliografía</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2026 Barrera Flores Sergio Gael — Proyecto académico, Informática Médica. Contenido con fines educativos, no diagnósticos.
+  </div>
+</footer>
+
+<script src="../assets/main.js"></script>
+</body>
+</html>
